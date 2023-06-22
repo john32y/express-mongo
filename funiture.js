@@ -1,6 +1,6 @@
 import db from './mongoConnect.js'
 
-const funitureDb = db.collection('furnituresç')
+const funitureDb = db.collection('furnitures')
 export const addFurniture = async(req, res) => {
     //add furniture to our mongo db
 
